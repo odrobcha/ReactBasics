@@ -30,7 +30,7 @@ const Examples = () => {
         title={'Example'}>
           <Tabs
            // buttonsContainer={Section} //to pass custom component
-            ButtonsContainer="menu"    //to pass build-in HTML element
+          //  ButtonsContainer="menu"    //to pass build-in HTML element
             buttons={
               <>
                   <TabButton
