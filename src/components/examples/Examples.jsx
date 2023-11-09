@@ -28,7 +28,10 @@ const Examples = () => {
       <Section
         id="examples"
         title={'Example'}>
-          <Tabs buttons={
+          <Tabs
+           // buttonsContainer={Section} //to pass custom component
+            buttonsContainer="menu"    //to pass build-in element
+            buttons={
               <>
                   <TabButton
                     isSelected={selectedTopic === 'components'}
