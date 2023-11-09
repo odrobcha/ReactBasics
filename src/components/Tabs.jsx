@@ -1,11 +1,11 @@
-const Tabs = ({children, buttons, buttonsContainer}) =>{  //buttons - custom name for extra slot
-    const ButtonContainer = buttonsContainer;   //this constant has to Capitalized in order to use it as dynamic HTML element
+const Tabs = ({children, buttons, ButtonsContainer}) =>{  //buttons - custom name for extra slot
+ //   const ButtonsContainer = buttonsContainer;   //this constant has to Capitalized in order to use it as dynamic HTML element
 
     return(
         <>
-            <ButtonContainer>
+            <ButtonsContainer>
                 {buttons}
-            </ButtonContainer>
+            </ButtonsContainer>
             {children}
 
         </>
